@@ -1,0 +1,139 @@
+.manageCard__student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 240px;
+    height: 170px;
+    color: white;
+    background-color: #1c07dd;
+    opacity: 0.8;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .manageCard__teacher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 240px;
+    height: 170px;
+    color: white;
+    background-color: #1881e9;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .manageCard__courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 240px;
+    height: 170px;
+    color: white;
+    background-color: rgb(255, 178, 13);
+    opacity: 0.9;
+  
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .manageCard__event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 240px;
+    height: 170px;
+    color: white;
+    background-color: #d83939;
+    opacity: 0.9;
+  
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .clsnm_text {
+    font-size: 24px;
+  }
+  
+  .manageCard__icon {
+    font-size: 4rem !important;
+    margin-top: -15px;
+    margin-bottom: -10px;
+  
+    /* color: red; */
+  }
+  
+  @media screen and (max-width: 500px) {
+    .manageCard__student {
+      width: 300px;
+      height: 170px;
+    }
+  
+    .manageCard__teacher {
+      width: 300px;
+      height: 170px;
+    }
+  
+    .manageCard__courses {
+      width: 300px;
+      height: 170px;
+    }
+  
+    .manageCard__event {
+      width: 300px;
+      height: 170px;
+    }
+  }
+  
+  @media screen and (max-width: 330px) {
+    .manageCard__student {
+      width: 260px;
+      height: 170px;
+    }
+  
+    .manageCard__teacher {
+      width: 260px;
+      height: 170px;
+    }
+  
+    .manageCard__courses {
+      width: 260px;
+      height: 170px;
+    }
+  
+    .manageCard__event {
+      width: 260px;
+      height: 170px;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .manageCard__student {
+      width: 230px;
+      height: 170px;
+    }
+  
+    .manageCard__teacher {
+      width: 230px;
+      height: 170px;
+    }
+  
+    .manageCard__courses {
+      width: 230px;
+      height: 170px;
+    }
+  
+    .manageCard__event {
+      width: 230px;
+      height: 170px;
+    }
+  }
+  
